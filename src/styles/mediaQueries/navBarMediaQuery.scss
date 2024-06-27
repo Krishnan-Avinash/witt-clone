@@ -1,0 +1,20 @@
+@media screen and (max-width: 900px) {
+  .navbar-parent {
+    .temp {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .navbar-parent {
+    .navbar-parent-elements {
+      display: none;
+    }
+    .temp {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+  }
+}

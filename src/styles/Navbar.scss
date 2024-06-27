@@ -1,0 +1,38 @@
+.navbar-parent {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  .navbar-parent-logo {
+    font-family: "Titan One", sans-serif;
+    color: #ff5252;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    font-size: 1.75rem;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .navbar-parent-elements {
+    ul {
+      display: flex;
+      gap: 2rem;
+      li {
+        transition: all 0.1s linear;
+        cursor: pointer;
+        // font-size: 1.1rem;
+        &:hover {
+          color: #ff5252;
+          text-decoration: underline;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  .hamburger {
+    display: none;
+    background-color: #ff5252;
+    color: white;
+  }
+}
